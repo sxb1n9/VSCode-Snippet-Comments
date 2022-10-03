@@ -1,42 +1,61 @@
 {
-     "name": "comment-headers",
-     "displayName": "Comment headers",
-     "description": "comment headers snippets  ",
-     "publisher": "akmarnafi",
-     "version": "1.10.0",
-     "engines": {
+     "name": "Snippet-Comments",
+     "displayName": "Comment Snippets",
+     "description": "Comment Snippets for fast beautiful commented code accross languages",
+     "publisher": "sxb1n9",
+     "version": "1.0.0",
+     "engines":
+     {
           "vscode": "^1.49.0"
      },
      "icon": "images/icon.png",
-     "repository": {
+     "repository":
+     {
           "type": "git",
-          "url": "https://github.com/AkmarNafi/comment-headers.git"
+          "url": "https://github.com/sxb1n9/VSCode-Snippet-Comments.git"
      },
-     "homepage": "https://github.com/AkmarNafi/comment-headers/blob/master/README.md",
-     "keywords": [
-          "header",
-          "sections",
-          "blocks",
+     "homepage": "https://github.com/sxb1n9/VSCode-Snippet-Comments/blob/master/README.md",
+     "keywords":
+     [
           "comment",
-          "divider",
+          "comments",
+          "snippet",
+          "snippets",
           "format",
+          "formatting",
+          "beautiful",
+          "header",
+          "headers",
+          "section",
+          "sections",
+          "block",
+          "blocks",
+          "divider",
+          "dividers",
+          "inline",
           "code",
+          "language",
           "html",
+          "php",
           "css",
           "javascript",
           "c",
           "cpp",
           "java"
      ],
-     "author": "Akmar nafi <akmar.nafi@gmail.com> ",
-     "extensionDependencies": [
+     "author": "sxb1n9 forked from Akmar nafi <akmar.nafi@gmail.com>",
+     "extensionDependencies":
+     [
           "aaron-bond.better-comments"
      ],
-     "categories": [
+     "categories":
+     [
           "Snippets"
      ],
-     "contributes": {
-          "snippets": [
+     "contributes":
+     {
+          "snippets":
+          [
                {
                     "language": "css",
                     "path": "./snippets/js-style-single.code-snippets"
@@ -108,6 +127,10 @@
                {
                     "language": "typescriptreact",
                     "path": "./snippets/js-style-double.code-snippets"
+               },
+               {
+                    "language": "c",
+                    "path": "./snippets/comments.code-snippets"
                },
                {
                     "language": "c",
